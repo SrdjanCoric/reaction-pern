@@ -1,0 +1,6 @@
+CREATE DATABASE reaction;
+
+CREATE TABLE board(
+  board_id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL
+);
